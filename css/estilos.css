@@ -14,11 +14,12 @@ body {
 }
 
 .login_area {
-    background: url("../../c/i/redesign/qlogin_bg.png") 0 0 no-repeat;
+    background: url("../img/qlogin_bg.png") 0 0 no-repeat;
     height: 35px;
     margin-top: 19px;
     position: relative;
     width: 100%;
+    margin-left: 170px;
 }
 
 .login_area > br {
