@@ -1,0 +1,6 @@
+@import url('./css/header.css');
+body {
+    background: url("../img/top_bg.png") center 0 no-repeat black;
+    position: relative;
+    min-width: 950px;
+}
