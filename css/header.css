@@ -71,3 +71,103 @@
     top: 12px;
     width: 185px;
 }
+
+/* Main menu area */
+
+#main_menu {
+    background: url("../img/menu_bg.png") 0 0 no-repeat;
+    border: 1px solid #000;
+    height: 36px;
+    margin: 0 170px 0px;
+    padding: 0;
+    position: relative;
+    width: 958px;
+}
+
+#main_menu:after {
+    background: url("../img/menu_bottom_line.png") 0 0 no-repeat;
+    height: 6px;
+    left: 0;
+    bottom: -7px;
+    width: 100%;
+}
+
+#main_menu_table .separator {
+    background: url("../img/menu_separator.png") 0 0 no-repeat;
+    border-right: 1px solid #000;
+    height: 36px;
+    width: 1px;
+}
+
+.hide_separator {
+    display: none;
+}
+
+#main_menu_table td {
+    position: relative;
+}
+
+#main_menu_table td a {
+    padding: 0 16px;
+}
+
+#main_menu_table td a span.main_menu_text, #main_menu_table td.active a span.main_menu_text {
+    color: #fff;
+    display: block;
+    font-family: "MyriadProRegular", sans-serif;
+    font-size: 13px;
+    line-height: 0px;
+    padding-top: 0px;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0.85);
+    text-transform: none;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#main_menu_table td:hover.item, #main_menu_table td:hover.item.first {
+    background: url("../img/menu_bg_highlight.png") 0 0 repeat-x;
+}
+
+#main_menu_table td.active, #main_menu_table td.active.first {
+    background: url("../img/menu_highlight.png") center 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.shift_support {
+    display: block;
+    position: absolute !important;
+    right: 0;
+}
+
+#main_menu_table td.shift_support, #main_menu_table td.shift_support.active.last {
+    background: none !important;
+}
+
+#main_menu_table .shift_support a {
+    padding: 0 13px 0 20px;
+}
+
+#main_menu_table td.shift_support a span {
+    color: #00db71;
+    padding-top: 11px;
+}
+
+#main_menu_table td.shift_support:hover a span, #main_menu_table td.shift_support.active.last a span {
+    color: #24e875;
+}
+
+#main_menu_table td.shift_support:before {
+    background: url("../img/top_area_sprite.png") 0 -53px no-repeat;
+    height: 18px;
+    left: 0;
+    top: 7px;
+    width: 15px;
+}
+
+#main_menu_table td.shift_support:hover:before, #main_menu_table td.shift_support.active:before {
+    background-position: -18px -53px;
+}
+
+#main_menu_table td.shift_support.active a span.main_menu_text {
+    padding-top: 11px;
+}

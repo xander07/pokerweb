@@ -1,4 +1,4 @@
-@import url('./css/header.css');
+@import url('./header.css');
 body {
     background: url("../img/top_bg.png") center 0 no-repeat black;
     position: relative;
