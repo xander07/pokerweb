@@ -1,0 +1,55 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+
+	<head>
+		<!-- Agregar etiquetas meta-->
+		<title></title>
+		<link rel="stylesheet" href="header.css"/>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script> 
+			$(function(){
+			  $('#header').load('header.html'); 
+			  $('#footer').load('footer.html'); 
+			});
+		</script>
+	</head>
+	<body>
+
+		<div class="root argenlive_redesign" id="root">
+		<div class="wrapper">
+		<div class="top_wrapper">
+		<div class="top_left">
+			<a title="Caribe Poker Live" href="./index.html" class="logo logo_img" id="logo">
+				<img alt="Caribe Poker Live" src="./i/logo.png"/>
+			</a>
+		</div>
+		<div class="top_right">
+		<div class="lang" id="lang">
+		<table class="lang-table">
+			<tr>
+				<td>
+					<a id="ref_lang_es" class="link_lang active" title="Español" onclick="changeLang('es');" href="#">es</a>
+				</td>
+				<td>
+					<a id="ref_lang_en" class="link_lang " title="English" onclick="changeLang('en');" href="#">en</a>
+				</td>
+			</tr>
+		</table>
+		</div>
+		</div>
+		<div class="clear"> </div>
+		<div class="qlogin_container" id="qlogin_container">
+		<form novalidate="novalidate" onsubmit="return CG.login(this)" name="quick-login-form">
+			<div class="login_area">
+			<div class="billet">
+				<span class="billet_logo"> </span>
+				<span class="billet_title"> </span>
+			</div>
+			</div>
+		</form>
+		</div>
+		</div>
+		</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+#main_banner {
+	display: flex;
+	justify-content: center;
+}
+
+#main_banner .contenedor {
+	position: absolute;
+
+}
+
+#banner img {
+	width: 100%;
+	margin: 0;
+}
