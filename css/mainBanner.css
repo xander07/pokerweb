@@ -1,14 +1,31 @@
-#main_banner {
+
+#main_banner .banner_block {
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 
 #main_banner .contenedor {
+	top: 45%;
+	right: 22%;
 	position: absolute;
 
 }
 
-#banner img {
-	width: 100%;
-	margin: 0;
+#main_banner .contenedor a {
+	display: block;
+	width: 92px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 25px;
+	transform: translateY(40px);
+}
+
+#main_banner .contenedor .download_btn{
+
+}
+
+#main_banner .contenedor .download_btn img{
+	clip:rect(1px 1px 46px 1px);
 }
